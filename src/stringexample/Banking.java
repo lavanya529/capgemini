@@ -37,24 +37,10 @@ public class Banking {
 			System.out.println(CustomerDetails[1]=balance);
 			System.out.println(CustomerDetails[1]=phoneNo);
 			
-			System.out.println("enter accNo");
-			accNo =sc.nextLong();
-			System.out.println("enter adharNo");
-            adharNo=sc. nextLong();
-			System.out.println("enter balance");
-			balance = sc.nextLong();
-			System.out.println("enter phoneNo");
-			phoneNo = sc. nextLong();
+
 			
-			System.out.println(CustomerDetails[1]=accNo);
-			System.out.println(CustomerDetails[1]=adharNo);
-			System.out.println(CustomerDetails[1]=balance);
-			System.out.println(CustomerDetails[1]=phoneNo);
 			
-			System.out.println(CustomerDetails[2]=accNo);
-			System.out.println(CustomerDetails[2]=adharNo);
-			System.out.println(CustomerDetails[2]=balance);
-			System.out.println(CustomerDetails[2]=phoneNo);
+			
 			}	
 			
 			

@@ -1,12 +1,10 @@
-package com.abc;
+package exception;
 
-public class Demo1 {
+public class ArithematicException extends Exception {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-   int num=10;
-   Demo d = new Demo();
-   d.num=
+
 	}
 
 }
