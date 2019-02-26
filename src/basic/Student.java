@@ -10,6 +10,8 @@ public class Student implements Serializable {
 	
 
 	
+
+
 	public String getCollege() {
 		return college_name;
 	}
@@ -41,7 +43,8 @@ public class Student implements Serializable {
 	public void setFees(double fees) {
 		this.fees = fees;
 	}
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-	}		
+	
+
+	
+	
 }

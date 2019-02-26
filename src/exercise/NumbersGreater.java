@@ -12,29 +12,32 @@ public class NumbersGreater {
         
         double avg = 0; 
         for (int i = 0; i < n; i++)  
-            avg += arr[i];  
+            avg += arr[i]; 
+        
         avg = avg / n; 
       
         
         for (int i = 0; i < n; i++)  
             if (arr[i] > avg)  
                 System.out.print(arr[i] + " "); 
-        int a = arr.length; 
+        //int a = arr.length; 
     } 
   
 	
 	public static void main(String[] args) {
-		
+		System.out.println("Enter the size");
+		 int a = sc.nextInt();
+		 int n[]= new int[a];
 		System.out.println("enter the elements");
-        int a = sc.nextInt();
-        int n[]= new int[a];
-        for (int i = 0; i < n.length; i++) {
-        	 int arr[] = { 5, 4, 6, 9, 10 }; 
+       
+       
+        for (int i = 0; i < n.length; i++) 
+        	n[i]= sc.nextInt(); 
         	
-           printAboveAvg(arr, a)
+           printAboveAvg(n, a);
            
 		}
         
         		}
 
-}
+

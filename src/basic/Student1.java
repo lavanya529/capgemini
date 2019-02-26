@@ -1,11 +1,16 @@
 package basic;
 
-public class Student1 {
+public class Student1 implements Comparable<Student1>{
 	private String name;
 	private int roll;
 	private double fees;
 	
-	
+	public Student1(int i, String stringg, double j) {
+		// TODO Auto-generated constructor stub
+		this.roll=i;
+		this.name=stringg;
+		this.fees=j;
+	}
 	public String getName() {
 		return name;
 	}
@@ -29,15 +34,12 @@ public class Student1 {
 	public void setFees(double fees) {
 		this.fees = fees;
 	}
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-	}		
-}
-public class Student1 {
 
-	public static void main(String[] args) {
+	
+	@Override
+	public int compareTo(Student1 o) {
 		// TODO Auto-generated method stub
-
+		return 0;
 	}
-
+			
 }

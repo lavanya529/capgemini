@@ -1,20 +1,22 @@
 package PROGRAMS;
+import java.util.Scanner;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.ObjectOutputStream;
 import java.util.*;
 public class FileOutputStream1 {
 
 	public static void main(String[] args) {
 	
-		
-
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter integer");
+		int n = sc.nextInt();
 		try {
-			Scanner sc = new Scanner("System.in");
+			
 			FileOutputStream fos =new FileOutputStream("D:\\lavanya\\program.txt");
-			System.out.println("enter integer");
-			int n = sc. nextInt();
+			//ObjectOutputStream out = new ObjectOutputStream(fos);
 			fos.write(n);
 			fos.close();
 		} catch (FileNotFoundException e) {
